@@ -12,7 +12,10 @@
                 <Image url="@univ_poitiers.png" />
             </image>
         </ImageView>
-        <AnchorPane fx:id="rootPane" layoutX="-1.0" layoutY="91.0" prefHeight="311.0" prefWidth="606.0" style="-fx-background-color: #3232;" stylesheets="@stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="91.0" />
+        <AnchorPane fx:id="rootPane" layoutX="-1.0" layoutY="91.0" prefHeight="311.0" prefWidth="606.0" style="-fx-background-color: #3232;" stylesheets="@stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="91.0">
+         <children>
+            <Button layoutX="214.0" layoutY="130.0" mnemonicParsing="false" onAction="#openListeEtudiant" prefHeight="46.0" prefWidth="162.0" text="ENTRER " />
+         </children></AnchorPane>
         <Button layoutY="66.0" mnemonicParsing="false" onAction="#openListeEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Tous les étudiants" />
         <Button layoutX="200.0" layoutY="66.0" mnemonicParsing="false" onAction="#openAjoutEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Ajouter un étudiant" />
         <Button layoutX="400.0" layoutY="66.0" mnemonicParsing="false" onAction="#openModifEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Modifier un étudiant" textAlignment="CENTER" />
