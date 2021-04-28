@@ -21,12 +21,12 @@
         <Button layoutX="400.0" layoutY="66.0" mnemonicParsing="false" onAction="#openModifEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Modifier un étudiant" textAlignment="CENTER" />
       <ImageView fitHeight="63.0" fitWidth="119.0" layoutX="483.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/C:/Users/User/IdeaProjects/miniprojetIHMv2/src/sample/vue/gphy.PNG" />
+            <Image url="@/sample/vue/gphy.PNG" />
          </image>
       </ImageView>
       <ImageView fitHeight="63.0" fitWidth="119.0" layoutX="37.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/C:/Users/User/IdeaProjects/miniprojetIHMv2/src/sample/vue/gphy.PNG" />
+            <Image url="@/sample/vue/gphy.PNG" />
          </image>
       </ImageView>
     </children>
