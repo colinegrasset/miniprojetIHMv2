@@ -7,7 +7,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.PrincipalePageController">
     <children>
-        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="104.0" fitWidth="285.0" layoutX="158.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@univ_poitiers.png" />
             </image>
@@ -19,5 +19,15 @@
         <Button layoutY="66.0" mnemonicParsing="false" onAction="#openListeEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Tous les étudiants" />
         <Button layoutX="200.0" layoutY="66.0" mnemonicParsing="false" onAction="#openAjoutEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Ajouter un étudiant" />
         <Button layoutX="400.0" layoutY="66.0" mnemonicParsing="false" onAction="#openModifEtudiant" prefHeight="25.0" prefWidth="200.0" stylesheets="@stylesheet.css" text="Modifier un étudiant" textAlignment="CENTER" />
+      <ImageView fitHeight="63.0" fitWidth="119.0" layoutX="483.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/C:/Users/User/IdeaProjects/miniprojetIHMv2/src/sample/vue/gphy.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="119.0" layoutX="37.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/C:/Users/User/IdeaProjects/miniprojetIHMv2/src/sample/vue/gphy.PNG" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
