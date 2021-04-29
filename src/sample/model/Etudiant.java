@@ -17,7 +17,7 @@ public class Etudiant {
 
 
     /**
-     * Constructor with some initial data.
+     * Constructor
      *
      * @param nom
      * @param prenom
