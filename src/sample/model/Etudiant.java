@@ -15,7 +15,9 @@ public class Etudiant {
     private StringProperty promotion;
     private StringProperty option;
 
-
+    public Etudiant() {
+        super();
+    }
     /**
      * Constructor
      *
@@ -25,7 +27,9 @@ public class Etudiant {
      * @param promotion
      * @param option
      */
+
     public Etudiant(String nom, String prenom, String anneeNaissance, String promotion, String option) {
+        super();
         this.nom = new SimpleStringProperty(nom);
         this.prenom = new SimpleStringProperty(prenom);
         this.anneeNaissance = new SimpleStringProperty(anneeNaissance);
