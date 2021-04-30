@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF5EE;" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AjoutController">
     <children>
-        <Pane layoutX="85.0" layoutY="78.0" prefHeight="292.0" prefWidth="429.0">
+        <Pane layoutX="51.0" layoutY="46.0" prefHeight="292.0" prefWidth="429.0">
             <children>
                 <Label layoutX="14.0" layoutY="23.0" text="Nom:" />
                 <Label layoutX="14.0" layoutY="68.0" text="Prénom:" />
@@ -18,12 +18,12 @@
                 <Label layoutX="14.0" layoutY="208.0" text="Option:" />
                 <TextField fx:id="txtNom" layoutX="134.0" layoutY="19.0" prefHeight="25.0" prefWidth="261.0" />
                 <TextField fx:id="txtPrenom" layoutX="134.0" layoutY="64.0" prefHeight="25.0" prefWidth="261.0" />
-                <Button layoutX="341.0" layoutY="253.0" mnemonicParsing="false" onAction="#ajouterEtudiant" text="Valider" />
                 <ComboBox fx:id="comPromo" layoutX="134.0" layoutY="160.0" prefHeight="25.0" prefWidth="261.0" />
                 <ComboBox fx:id="comAnnee" layoutX="134.0" layoutY="111.0" prefHeight="25.0" prefWidth="261.0" />
                 <ComboBox fx:id="comOption" layoutX="134.0" layoutY="204.0" prefHeight="25.0" prefWidth="261.0" />
             </children>
         </Pane>
-        <Label layoutX="96.0" layoutY="60.0" prefHeight="17.0" prefWidth="275.0" text="Entrez les informations du nouvel étudiant : " />
+        <Label layoutX="51.0" layoutY="29.0" prefHeight="17.0" prefWidth="275.0" text="Modifiez les informations de l'étudiant : " />
+          <Button layoutX="464.0" layoutY="252.0" mnemonicParsing="false" onAction="#ajouterEtudiant" text="Valider" />
     </children>
 </AnchorPane>

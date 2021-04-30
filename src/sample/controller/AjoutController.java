@@ -40,21 +40,19 @@ public class AjoutController implements Initializable {
 
     @FXML
     public void ajouterEtudiant() {
-        this.main.addEtudiant(new Etudiant("Boris", "Boris", "2002", "M1", "physio" ));
-//        String nom = txtNom.getText();
-//        String prenom = txtNom.getText();
-//
-//        Etudiant etu = new Etudiant();
-//        etu.setNom(nom);
-//        etu.setPrenom(prenom);
-//        etu.setAnneeNaissance(comAnnee.getValue());
-//        etu.setPromotion(comPromo.getValue());
-//        etu.setOption(comOption.getValue());
-//        if (comPromo.getValue() == "L3") {
-//            etu.setOption(null);
-//        }
-//        data.add(etu);
-//
-//        this.main.getDonneesEtudiant().add(etu);
+        String nom = txtNom.getText();
+        String prenom = txtNom.getText();
+        Etudiant etu = new Etudiant();
+        etu.setNom(nom);
+        etu.setPrenom(prenom);
+        etu.setAnneeNaissance(comAnnee.getValue());
+        etu.setPromotion(comPromo.getValue());
+        etu.setOption(comOption.getValue());
+        if (comPromo.getValue() == "L3") {
+            etu.setOption(null);
+        }
+        data.add(etu);
+
+       this.main.getDonneesEtudiant().add(etu);
     }
 }

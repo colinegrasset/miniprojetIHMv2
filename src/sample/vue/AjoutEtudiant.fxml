@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
@@ -9,21 +10,24 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF5EE;" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AjoutController">
     <children>
-        <Pane layoutX="85.0" layoutY="78.0" prefHeight="292.0" prefWidth="429.0">
+        <Pane layoutX="59.0" layoutY="60.0" prefHeight="292.0" prefWidth="429.0">
             <children>
                 <Label layoutX="14.0" layoutY="23.0" text="Nom:" />
                 <Label layoutX="14.0" layoutY="68.0" text="Prénom:" />
                 <Label layoutX="14.0" layoutY="115.0" text="Année de naissance:" />
                 <Label layoutX="14.0" layoutY="164.0" text="Promotion:" />
                 <Label layoutX="14.0" layoutY="208.0" text="Option:" />
-                <TextField fx:id="txtNom" layoutX="134.0" layoutY="19.0" prefHeight="25.0" prefWidth="261.0" promptText="saisir le nom" />
-                <TextField fx:id="txtPrenom" layoutX="134.0" layoutY="64.0" prefHeight="25.0" prefWidth="261.0" promptText="saisir le prénom" />
-                <Button layoutX="341.0" layoutY="253.0" mnemonicParsing="false" onAction="#ajouterEtudiant" text="Valider" />
-            <ComboBox fx:id="comPromo" layoutX="134.0" layoutY="160.0" prefHeight="25.0" prefWidth="261.0" promptText="Sélectionner la promotion" />
-            <ComboBox fx:id="comAnnee" layoutX="134.0" layoutY="111.0" prefHeight="25.0" prefWidth="261.0" promptText="Sélectionner l'année de naissance" />
-            <ComboBox fx:id="comOption" layoutX="134.0" layoutY="204.0" prefHeight="25.0" prefWidth="261.0" promptText="Sélectionner l'option" />
+                <TextField fx:id="txtNom" layoutX="134.0" layoutY="19.0" prefHeight="25.0" prefWidth="261.0" />
+                <TextField fx:id="txtPrenom" layoutX="134.0" layoutY="64.0" prefHeight="25.0" prefWidth="261.0" />
+            <ComboBox fx:id="comPromo" layoutX="134.0" layoutY="160.0" prefHeight="25.0" prefWidth="261.0" />
+            <ComboBox fx:id="comAnnee" layoutX="134.0" layoutY="111.0" prefHeight="25.0" prefWidth="261.0" />
+            <ComboBox fx:id="comOption" layoutX="134.0" layoutY="204.0" prefHeight="25.0" prefWidth="261.0" />
             </children>
         </Pane>
-        <Label layoutX="96.0" layoutY="60.0" prefHeight="17.0" prefWidth="275.0" text="Entrez les informations du nouvel étudiant : " />
+        <Label layoutX="59.0" layoutY="35.0" prefHeight="17.0" prefWidth="275.0" text="Entrez les informations du nouvel étudiant : " />
+          <Button layoutX="466.0" layoutY="265.0" mnemonicParsing="false" onAction="#ajouterEtudiant" text="Valider" />
     </children>
+   <padding>
+      <Insets top="91.0" />
+   </padding>
 </AnchorPane>

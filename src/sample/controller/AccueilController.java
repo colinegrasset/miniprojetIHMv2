@@ -22,7 +22,6 @@ public class AccueilController implements Initializable {
         FXMLLoader loader = new FXMLLoader();
         AnchorPane pane = loader.load(getClass().getResource("/sample/vue/ListeEtudiant.fxml"));
         rootPane.getChildren().setAll(pane);
-
     }
 
     @FXML
